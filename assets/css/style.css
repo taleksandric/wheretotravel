@@ -1,0 +1,644 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Merienda One', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+   }
+   
+#heder{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    min-height: 15rem;
+    background-image: url('../images/pozadina.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+body{
+    background-color: #EFE3BF;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+#menu ul li{
+margin-left: 3rem;
+margin-right: 1rem;
+box-sizing: border-box;
+}
+#menu ul li:hover{
+    background-color: #C9B086;
+    transition: 0.4s ease-in;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px grey;
+  
+}
+#menu ul li a{
+    font-size: 1.5rem;
+    color:black;
+    font-weight: bold;
+}
+
+.izbor{
+    font-size: 1rem;
+    border: 2px solid #C9B086;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+    background-color: transparent;
+    width: 20%;
+    height: 2rem;
+}
+.sort{
+    background-color: #EFE3BF;
+    border-bottom: 2px solid #C9B086;
+}
+#meniUl{
+    padding:0px;
+    margin:0px;
+}
+#meniUl li{
+    font-size: 1rem;
+    text-align: left;
+}
+#meniUl li a{
+    color:black;
+}
+#meniUl1{
+    padding:0px;
+    margin:0px;
+}
+#meniUl1 li{
+    font-size: 1rem;
+    text-align: left;
+}
+#meniUl1 li a{
+    color:black;
+}
+#meniSakriven{
+    transform: translateX(-357px);
+    transition: 0.6s;
+    display: none;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    position: fixed;
+    margin: 0px;
+    width: 12rem;
+}
+#menuSkriveni{
+        transform: translateX(-357px);
+        transition: 0.6s;
+        display: none;
+        font-size: 1.5rem;
+        padding-left: 3rem;
+        padding-top: 1.5rem;
+        position: fixed;
+        margin: 0px;
+        width: 12rem;
+    
+}
+#menuSkriven ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+#menuSkriven ul li a{
+    color: black;
+    font-weight: bold;
+}
+.izbor2{
+    background-color: #C9B086;
+    border: 2px solid #EFE3BF;
+}
+.meniSakriven1{
+    transform: translateX(0px) !important;
+    margin-top: 7rem;
+    font-size: 1.5rem;
+    min-height: 9rem;
+    width: 100%;
+   background-color: #C9B086;
+    z-index: 999;
+    border-radius: 4px;
+}
+.sakrij1 li{
+    text-align: center;
+    width: 9rem;
+    background-color:#C9B086 ;
+}
+.burgercic{
+    display: none;
+    position: fixed;
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    background-color: transparent;
+    width: 100%;
+    z-index: 999;
+}
+.burger{
+    display: none;
+    position: fixed;
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    background-color: transparent;
+    width: 100%;
+    z-index: 999;
+}
+@media (max-width:1219px){
+    body #futer{
+        display: block;
+    }
+    body .blok3{
+        margin: 0px auto;
+        width: 100%;
+    }
+    body #meniFuterUl{
+        text-align: center;
+        padding:0px;
+    }
+}
+@media (max-width:840px){
+    body .blok2{
+        width: 45%;
+    }
+    body .blok{
+        text-align: center;
+    }
+    body #tabela{
+        width: 100% !important;
+    }
+   
+}
+@media (max-width:556px){
+    body h1{
+        font-size: 1.2rem !important;
+    }
+    body h2{
+        font-size:1rem !important;
+    }
+    body p{
+    font-size: 0.7rem !important;
+    }
+    body h3 h4{
+        font-size: 0.8rem !important;
+        text-align: center;
+    }
+    body #about img{
+        width: 45% !important;
+    }
+    body #about p{
+        width: 100% !important;
+    }
+    #slajder{
+        display: none !important;
+    }
+    .blok h2{
+        font-size: 0.7rem !important;
+    }
+    .blok h3{
+        font-size: 0.7rem !important;
+    }
+    .blok h4{
+        font-size: 0.7rem !important;
+    }
+    .srce{font-size: 0.7rem !important;}
+    .maliBlok{font-size: 0.6rem !important;}
+    .methodology{
+        display:block !important;
+    }
+    .methodology a{
+        font-size: 0.8rem !important;
+    }
+    
+}
+@media(max-width:750px){
+    body #about p{
+width: 80%;
+    }
+    body .polje{
+        width: 90% ;
+        height: 0.5rem;
+      }
+      body #pretraga{
+        padding-top: 0px;
+        display: block;
+       }
+       body .izbor{
+           width: 60%;
+       }
+        body  #dugme{
+          width: 65%;
+        }
+        body .greska{
+            
+            width: 100%;
+           
+            font-size: 0.8rem;
+           
+            text-align: center;
+        }
+        
+        body #meniFuterUl li a{
+            font-size: 1rem;
+        }
+        body #drustveneMreze  a{
+            font-size: 1rem;
+        }
+        #citat p{
+            font-size: 0.9rem !important;
+        }
+}
+@media(max-width:400px){
+    .polje{
+        width: 83% !important;
+
+    }
+    body #meniFuterUl li a{
+        font-size: 0.7rem;
+    }
+    body #drustveneMreze  a{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:596px){
+    .methodology{
+        display: inline-block !important;
+    }
+    .populacija{
+        display: none !important;
+    }
+     .populacijaRed{
+        display: none !important;
+    }
+}
+@media(max-width:411px){
+    #tabela{
+        margin:0px !important;
+    }
+}
+@media (max-width:1005px){
+    body #heder{
+        min-height: 16rem;
+    }
+    body #heder #menu {
+        display: none;
+       }
+       body .pretraga1{
+           display: none;
+           padding:0px;
+           padding-top: 0px;
+       }
+       body .burgercic {
+        display: block;
+       }
+       body .burger{
+           display: block;
+       }
+       body #meniSakriven{
+           display: block;
+       }
+       body .blok2{
+        width: 90%;
+    }
+}
+#pretraga{
+    display: flex;
+    justify-content: space-around;
+}
+#pretraga1{
+    position: relative;
+}
+.pretragaSkrivena{
+    padding-top: 0px;
+    width: 21rem;
+
+}
+#sadrzaj{
+    padding-top: 3rem;
+    width: 100%;
+    margin: 0px auto;
+    /* background-color: #EFE3BF;  */
+}
+.blok{
+    width: 70%;
+    margin: 0px auto;
+    flex-direction: column;
+}
+.blok img{
+    border: 2px solid #C9B086;
+    border-radius: 3px;
+    width: 100%;
+}
+.methodology{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.maliBlok{
+    text-align: center;
+    padding-top: 3px;
+    width: 28px;
+    /* margin-top: 15px; */
+    height: 25px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+.blok h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.blok h3{
+    font-size: 1rem;
+}
+.methodology a{
+    color: #000;
+    text-align: right;
+    border-bottom:2px solid #C9B086;
+    padding-top: 3px;
+}
+.srce{
+font-size: 1.3rem;
+    color: #000;
+display: flex;
+justify-content: space-between;
+}
+.blok a:hover .srce2{
+    color: #C9B086;
+    transition: 0.4s ease-in;
+}
+.blok p{
+    text-align: justify;
+    font-weight: 1.3rem;
+}
+#methodology{
+    width: 100%;
+    min-height: 10rem;
+    margin-top: 3rem;
+
+}
+#methodology h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.blok2{
+    display: inline-table;
+    margin: 0px auto;
+    width: 30%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.blok2 h2{
+    text-align: center;
+}
+.blok2 .maliBlok2{
+    text-align: center;
+}
+.opis{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.opis h2{
+    margin:0px;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+.maliBlok2{
+    text-align: center;
+    padding-top: 3px;
+    width: 28px;
+    /* margin-top: 15px; */
+    height: 25px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+.skracenica{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.skracenica p{
+    font-size: 1rem;
+    margin: 0px;
+    margin-left: 0.5rem;
+    padding-top: 3px;
+}
+#slajder{
+    margin: 0px auto;
+    width: 99%;
+    min-height: 33rem;
+    margin-bottom: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.7s ease-in;
+    background-image: url("../images/slajder0.jfif");
+    border-radius: 20px;
+}
+#kontakt h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.polje{
+    display: block;
+    width: 45%;
+    margin: 0px auto;
+    border: 2px solid #C9B086;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #EFE3BF;
+
+}
+#dugme{
+    display: block;
+    margin:0px auto;
+    border: 2px solid #EFE3BF;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 13%;
+    background-color: #EFE3BF;
+}
+#dugme:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.7s ease-in;
+}
+.greska{
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    font-size: 2rem;
+}
+#kontakt{
+    margin: 0px auto;
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 4px;
+    background-image: url("../images/pozadinaKontakt.jfif");
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 3rem 0rem;
+    font-weight: bold;
+}
+#textArea{
+    resize: none;
+}
+.greska{
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    font-size: 1rem;
+    color: white;
+}
+.strelicaDoGore {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 999;
+}
+.strelicaDoGore a{
+    text-decoration: none;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.strelicaDoGore i{
+    color: #C9B086;
+ font-size: 3rem;
+ transition: .6s;
+
+}
+#futer{
+    border-top: 3px solid #C9B086;
+    min-height:10rem ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.blok3{
+    width: 30%;
+}
+/* #drustveneMreze{
+    height: 100%;
+    display: block;
+    margin: 0px;
+} */
+#meniFuterUl{
+    color: black;
+    font-size: 1.2rem;
+}
+#meniFuterUl li{
+    margin-top: 0.7rem;
+}
+#meniFuterUl li a{
+    color: black;
+    text-align: center;
+}
+
+#drustveneMreze a{
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+#meniFuterUl li a:hover{
+   border-bottom: 2px solid #C9B086;
+ 
+
+}
+#drustveneMreze a i{
+    margin-right: 0.5rem;
+    text-align: center;
+}
+#citat p{
+    font-size: 2rem;
+text-align: center;
+}
+#about{
+    width: 100%;
+    min-height: 35rem;
+    display: block;
+    margin: 0px auto;
+}
+#about h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+#about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border:2px solid #C9B086;
+    border-radius: 4px;
+}
+#about p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+}
+#tekst{
+    width: 100%;
+    height: 6rem;
+}
+#tekst h1{
+    text-align: center;
+}
+#tekst h1 a{
+    color: black;
+}
+#tekst h1 a:hover{
+    border-bottom:4px solid #C9B086;
+}
+#pF li{
+    margin-top: 0.5rem;
+    background-color: #C9B086;
+    border-radius: 3px;
+    border:2px solid #EFE3BF;
+    position: relative !important;
+}
+.chb input[type="checkbox" i]{
+    border-radius: 4px;
+}
+#tabela{
+    width : 70%;
+    margin : 0px auto;
+    font-size: 0.7rem;
+
+}
+
+#naziviKolona{
+    background-color: #C9B086;
+    border : 1px solid #EFE3BF ;
+
+}
+.redVrednosti td{
+    border : 1px solid #C9B086 ;
+    text-align: center;
+}
+.dugmence{
+    background-color: #C9B086;
+    border : 1px solid #EFE3BF ;
+    border-radius: 4px;
+}

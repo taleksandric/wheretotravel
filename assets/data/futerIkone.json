@@ -1,0 +1,27 @@
+[
+    {
+        "href":"https://www.instagram.com/taleksandric/",
+        "iClass":"fab fa-instagram",
+        "ime":"instagram"
+    },
+    {
+        "href":"https://www.facebook.com/taleksandric",
+        "iClass":"fab fa-facebook-square",
+        "ime":"facebook"
+    },
+    {
+        "href":"dokumentacija.pdf",
+        "iClass":"fas fa-book",
+        "ime":"documentation"
+    },
+    {
+        "href":"sitemap.xml",
+        "iClass":"fas fa-sitemap",
+        "ime":"sitemap"
+    },
+    {
+        "href":"assets/css/style.css",
+        "iClass":"fab fa-css3-alt",
+        "ime":"css"
+    }
+]

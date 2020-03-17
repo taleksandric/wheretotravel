@@ -1,0 +1,483 @@
+[
+    {
+        "id":1,
+        "imeGrada":"London",
+        "img":"assets/images/london.jpg",
+        "opis":"As the “capital of capitals” negotiates the uncharted terrain of a post-Brexit world, for now it still reigns atop the planet’s best cities for the third year running.",
+        "populacija":"8.9 mil",
+        "methodology":[
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            },
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            }
+        ],
+        "cena":800,
+        "prioritet":3,
+        "daljiOpis":"The city has long been a magnet for smart talent. London ranks #2 in the world for percentage of the population with post-secondary education, and #11 for the quality of its universities. In September 2019, the Times Higher Education World University Rankings listed four London universities in the top 40—more than any other city in the world. Where the city consistently excels is in Programming—#1 again this year—which includes restaurants, nightlife and shopping. London has established a Night Time Commission and appointed a Night Czar. London First and Ernst & Young found that, in 2014, the nighttime economy was worth almost $35 billion annually and directly supported one in eight jobs—or 723,000 workers. To boost the nighttime experience, the city runs parts of its tube system 24 hours a day, to the delight of the 8.7 million riders who used it in 2018."
+    },
+    {
+        "id":2,
+        "imeGrada":"Moscow",
+        "img":"assets/images/moskva.jpg",
+        "opis":"Intriguing and increasingly hungry for global attention, Russia’s beguiling capital is a cultural gold mine spanning the ages.",
+        "populacija":"11.92 mil",
+        "methodology":[
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            },
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            }
+        ],
+        "cena":580,
+        "prioritet":6,
+        "daljiOpis":"First timers and regulars fall under the spell of Moscow the minute they set foot in this endlessly fascinating and dynamic metropolis. Curiosity about Russia has increased as political intrigue has grown, of course, which might explain why Moscow was the top-hashtagged city on Instagram. The city offers a bounty of classic attractions, including the masterpiece of Russian architecture that is St. Basil’s Cathedral; the Kremlin and Red Square, two UNESCO Heritage Sites that are also the historic and spiritual heart of the city; and, of course, Gorky Park. But the city also rewards venturing off the beaten path, with bizarre bars, tasty and increasingly locally sourced meals, and daring fashion boutiques."
+    },
+    {
+        "id":3,
+        "imeGrada":"Dubai",
+        "img":"assets/images/dubai.jpg",
+        "opis":"An alluring blend of over-the-top experiences, Arab heritage and luxury shopping, Dubai rises from the golden sands like a mirage.",
+        "populacija":"3.331 mil",
+        "methodology":[
+            {
+                "idMethodology":2,
+                "naziv":"People",
+                "skracenica":"Po",
+                "bgColor":"#FFC346"
+            },
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            }
+        ],
+        "cena":1500,
+        "prioritet":11,
+        "daljiOpis":"Dubai is where you can ride the elevator to the top of the world’s tallest building for a bird’s-eye view, bet on the ponies at the world’s richest horse race and pose for photos in front of the world’s tallest choreographed fountains. The most visited mall on the planet is also here, and helps land Dubai at #30 in our Shopping category. New for 2019 is Cityland Mall, the world’s first “nature inspired” shopping mall, packed with botanical touches including 200,000 square feet of open-air gardens. Santiago Calatrava’s The Tower at Dubai Creek will eclipse the Burj Khalifa as the tallest building in the world when completed in 2020."
+    },
+    {
+        "id":4,
+        "imeGrada":"Amsterdam",
+        "img":"assets/images/amsterdam.jpg",
+        "opis":"Surprised to see a mid-sized European capital with a fading party rep ranked so high? You obviously haven’t visited in a while.",
+        "populacija":"821.752",
+        "methodology":[
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            },
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            }
+        ],
+        "cena":450,
+        "prioritet":4,
+        "daljiOpis":"Not content with its raunchy, pot- and prostitution-fueled past (and the tourist “quality” this drew), Amsterdam doubled down on its enviable culture, connectivity and quality of life. New museums open annually, kicked off in 2016 by the Warhol and Banksy-stuffed Moco, followed by renovations to three of the city’s most important museums—the Rijksmuseum, the Van Gogh and the Stedelijk. Not surprisingly, the city ranks #14 globally in our Museums subcategory, up from last year. The city is also embracing corporate Brexit refugees who are setting up shop after leaving London, drawn by the global connectivity of the airport and new, direct four-hour London Eurostar rail service (handy if they forgot something in their old offices)."
+    },
+    {
+        "id":5,
+        "imeGrada":"Barselona",
+        "img":"assets/images/barselona.jpg",
+        "opis":"The defiant Catalan capital’s intoxicating mix of beach, architecture and creativity has framed the city as the poster child of global overtourism—and its solutions.",
+        "populacija":"5.515 mil",
+        "methodology":[
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            },
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            }
+        ],
+        "cena":430,
+        "prioritet":9,
+        "daljiOpis":"Steeped in history and wearing its cultural identity proudly on its sleeve, the capital of Catalonia is a region of Spain where independence and defending it is in the blood. It’s here where Airbnb was reined in and overtourism challenged, studied and regulated, with insights shared globally. But all that tension tends to dissipate when the sun sets, as the city’s #3 ranking for global Nightlife indicates. From baby steps and tapas on Las Ramblas, to the hidden speakeasies of Barri Gòtic, Europe’s largest Gothic quarter and the heart of Barcelona, to the industrial-sized clubbing of Port Olimpic, Barcelona keeps its revellers sated. Is it any wonder that it boasts the fifth-most TripAdvisor reviews among the world’s cities?"
+    },
+    {
+        "id":6,
+        "imeGrada":"Istanbul",
+        "img":"assets/images/istanbul.jpg",
+        "opis":"Istanbul is the only major city that straddles two continents, and globetrotters have long praised it for its incomparable blend of East and West.",
+        "populacija":"15.52 mil",
+        "methodology":[
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            },
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            }
+        ],
+        "cena":230,
+        "prioritet":20,
+        "daljiOpis":"Istanbul is a city of contradictions if there ever was one: minarets and church spires dot the colorful skyline, while down at street level women in black abayas and those in tight-fitting Armani dresses walk side by side. A few more steps away, Arabic house music from sidewalk cafés and bars all but drowns out the call to prayer. Get your bearings with a walk down Istiklal Caddesi, a pedestrian avenue in the Beyoğlu district that fuses modern with tradition to great effect. Here, impressive 19th-century buildings house cultural centers, shops, restaurants and cafes, such as Urban, a good spot for a midday coffee or a pre-club drink. Get your culture on at Istanbul Modern, a museum that focuses on local contemporary art."
+    },
+    {
+        "id":7,
+        "imeGrada":"Las Vegas",
+        "img":"assets/images/lasvegas.jpg",
+        "opis":"Vegas welcomed (again) more than 42 million visitors but this tourist town is also becoming increasingly more liveable.",
+        "populacija":"641.676",
+        "methodology":[
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            },
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            }
+        ],
+        "cena":2300,
+        "prioritet":1,
+        "daljiOpis":"Downtown is now a destination for locals and cred-seeking visitors. Repurposed brick buildings serve as austere, unsigned restaurants, a bet by Chef Natalie Young that has paid off for dozens of other entrepreneurs and restaurateurs since 2015. Sin City’s blossoming sense of place has moved the city into #27 for our deep Place category, with the sixth-best weather on the planet and an impressive #29 globally for its Outdoors Experiences. For a city in a desert, that’s no small feat. In the next few years, it will improve on its already impressive #35 global ranking in our Product category—its currently ranked #21 Conventions Center space will have an extra million square feet of functional space in 2020."
+    },
+    {
+        "id":8,
+        "imeGrada":"Tokyo",
+        "img":"assets/images/tokyo.jpg",
+        "opis":"The futuristic metropolis is tapping its ancient feudal roots by investing in street-level livability and resident wellbeing.",
+        "populacija":"9.273 mil ",
+        "methodology":[
+            {
+                "idMethodology":6,
+                "naziv":"Prosperity",
+                "skracenica":"Ps",
+                "bgColor":"#7D7D99"
+            },
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            }
+        ],
+        "cena":1800,
+        "prioritet":7,
+        "daljiOpis":"Despite earthquakes, tsunamis and typhoons, Japan perseveres and Tokyo, with its round-the-clock kinetic mobility, innovation and efficiency, continues to mesmerize global visitors. It ranks #6 for Neighborhoods & Landmarks and #16 for Outdoors. Indeed, parks are considered vital infrastructure here, and essential therapy for its vertical-living citizens. Take, for instance, Meiji Jingu shrine, which is tucked into dense woodland in the heart of the city and celebrates its centennial anniversary in 2020. Then there’s teamLab Borderless in the Mori Building, a new kind of digital art museum without boundaries, where visitors wander and explore, map-free, while immersing themselves in a three-dimensional world. This is just the latest addition to the city’s 250-plus museums."
+    },
+    {
+        "id":9,
+        "imeGrada":"Frankfurt",
+        "img":"assets/images/frankfurt.jpg",
+        "opis":"Frankfurt smartly defines conventions.",
+        "populacija":"746.878",
+        "methodology":[
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            },
+            {
+                "idMethodology":6,
+                "naziv":"Prosperity",
+                "skracenica":"Ps",
+                "bgColor":"#7D7D99"
+            }
+        ],
+        "cena":760,
+        "prioritet":16,
+        "daljiOpis":"Frankfurt has perfected the art of air access. Germany is in the middle of Europe, Frankfurt is in the middle of Germany, and its airport—the largest in the country—is one of the world’s aviation hubs (#4 in our Airport Connectivity category). The city rises above most others with its #6-ranked convention center, which draws more than 4.5 million per year. In 15 minutes, conventioneers who fly into FRA can find themselves at the massive Messe Frankfurt, the world’s largest trade fair and event organizer with its own exhibition grounds. A short stroll in any direction takes visitors to shopping, restaurants, museums and other pleasures to mix with the business of the day."
+    },
+    {
+        "id":10,
+        "imeGrada":"Tel Aviv",
+        "img":"assets/images/telaviv.jpg",
+        "opis":"A beach town with serious cultural chops, Tel Aviv is drawing on its past to forge an exciting future.",
+        "populacija":"435.855",
+        "methodology":[
+            {
+                "idMethodology":2,
+                "naziv":"People",
+                "skracenica":"Po",
+                "bgColor":"#FFC346"
+            },
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            }
+        ],
+        "cena":1300,
+        "prioritet":2,
+        "daljiOpis":"With its year-round perfect weather, laidback lifestyle and burgeoning tech industry, it’s no surprise that Tel Aviv has become a popular place to live for foreign-born Millennials and Gen-Xers. The city ranks #15 in our People category. It also ranks an impressive #39 for Museums. Located in the city center and opened in 1932, the Tel Aviv Museum of Art houses a comprehensive collection by local and international artists. The new building of twisting geometric surfaces, designed by Preston Scott Cohen, is one of the city’s landmarks. But you don’t have to go to a museum to be immersed in art and design. In a city with the planet’s largest concentration of Bauhaus-style buildings, fascinating architecture is everywhere you look."
+    },
+    {
+        "id":11,
+        "imeGrada":"Valencia",
+        "img":"assets/images/valensia.jpg",
+        "opis":"Enigmatic customs and historically paramount places make this city an undiscovered gem.",
+        "populacija":"2.531 mil",
+        "methodology":[
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            },
+            {
+                "idMethodology":2,
+                "naziv":"People",
+                "skracenica":"Po",
+                "bgColor":"#FFC346"
+            }
+        ],
+        "cena":760,
+        "prioritet":5,
+        "daljiOpis":"The Spanish city ranks #29 globally for Place, which includes its weather—the 15th best in the world—along with neighborhoods, landmarks and monuments, and parks and outdoor activities. For instance, here’s a landmark: the UNESCO World Heritage site called La Lonja, the 15th-century silk exchange and one of the best examples of Gothic civil architecture in Europe. The Mercado Central, one of Europe’s largest and oldest food markets, is across the street. The futuristic City of Arts and Sciences, designed by Santiago Calatrava and Félix Candela, is a marvel of a more modern sort. Valencia’s parks include several beaches, some within Albufera Park, a wetlands reserve with a lake and walking trails. It’s all very Instagrammable and helps the city rank #55 for Instagram hashtags."
+    },
+    {
+        "id":12,
+        "imeGrada":"Vienna",
+        "img":"assets/images/vienna.jpeg",
+        "opis":"Where modernism was born, the future is doing just fine.",
+        "populacija":"1.889 mil",
+        "methodology":[
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            },
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            }
+        ],
+        "cena":120,
+        "prioritet":19,
+        "daljiOpis":"Fresh ideas are blowing through the city where modernism was born—the 4th district seems to be just one hub of change on its own. Better tasting coffee is coming to the UNESCO-ranked coffeehouses, like the Landtmann and the Central—places where radical philosophical and aesthetic movements were hatched over mediocre joe. And along with Gustav Klimt at the Schloss Belvedere and Egon Schiele at the Leopold, there’s a dynamic contemporary art scene made up of places like TBA21 and the Museum of Applied Arts—which combines applied art, design, architecture and contemporary art in historic splendor. The annual Vienna Design Week is an anticipated takeover of the entire city. Not for nothing does Vienna rank #34 overall for its Programming."
+    },
+    {
+        "id":13,
+        "imeGrada":"Oslo",
+        "img":"assets/images/oslo.jpg",
+        "opis":"Smart, practical and increasingly keen to share its idiosyncrasies with the world, Oslo is an economic powerhouse with swagger (as much as Norwegians swagger).",
+        "populacija":"673.469",
+        "methodology":[
+            {
+                "idMethodology":6,
+                "naziv":"Prosperity",
+                "skracenica":"Ps",
+                "bgColor":"#7D7D99"
+            },
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            }
+        ],
+        "cena":390,
+        "prioritet":12,
+        "daljiOpis":"No longer playing second fiddle to Scandinavian cities like Stockholm and Copenhagen, Oslo is proving itself a worthy destination all its own, with stunning natural beauty as well as a thriving nightlife scene, Michelin-worthy restaurants and a storied past. Oslo has some of the most educated residents in the world (#13 for Education Attainment) as well as a high percentage of international residents (#49 for foreign-born residents). The economy is performing well, offering its residents admirable levels of social wellbeing and employment, which is a good thing, since Oslo is not a cheap place to live in or visit."
+    },
+    {
+        "id":14,
+        "imeGrada":"New York",
+        "img":"assets/images/newyork.jpg",
+        "opis":"The top-ranked city in the U.S. moves up a global spot as an experiential, sensory powerhouse obsessed with welcoming the world.",
+        "populacija":"8.623 mil ",
+        "methodology":[
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            },
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            }
+        ],
+        "cena":2400,
+        "prioritet":8,
+        "daljiOpis":"A visitor just has to look up—and what visitor can resist looking up?—to realize that Manhattan is reaching radical new heights. While there’s a dizzying concentration of towers in Hudson Yards, the air above many Manhattan neighborhoods has been forever changed. The Jacob K. Javits Center conference complex is getting a 1.2-million-square-foot, $1.5-billion expansion that will bring the facility to 3.3 million square feet. In the process, it will likely lift New York’s mediocre 56th place ranking for conference centers by providing much-needed new space. Delivery is expected in 2021. But New York is rarely all work and no play. The city ranks #5 globally for Museums, and from the Frick to the Tenement Museum, there’s a brilliant array. But all eyes will be on two in 2020—the Met turns 150 years old, and the Museum of Modern Art shows the world its rethink and rejuvenation of the notion of modern."
+    },
+    {
+        "id":15,
+        "imeGrada":"Tucson",
+        "img":"assets/images/tucson.jpg",
+        "opis":"Arizona’s second city is ascending fast, with bold city leadership and placemaking.",
+        "populacija":"535.677",
+        "methodology":[
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            },
+            {
+                "idMethodology":6,
+                "naziv":"Prosperity",
+                "skracenica":"Ps",
+                "bgColor":"#7D7D99"
+            }
+        ],
+        "cena":1900,
+        "prioritet":10,
+        "daljiOpis":"Another city that makes its World’s Best Cities debut, Tucson is buoyed by its #66 ranking for our deep Place category, with strong scores for the subcategories of Weather (#23) and Outdoors (#78). The city is poised to ascend up future global rankings, due to a torrent of new investment in all manner of green and common space. Its new Sun Link LRT is sure to improve quality of life, creating a focus on fewer cars and more walkability that’s designed to pull the sprawling population together, closer to downtown. Urban innovation that taps its outdoor bounty by increasing access to it is not a hard sell for a town where almost 25% are aged between 20 and 34. You can thank the University of Arizona (ranked #39 globally) for the city’s youthful bounce."
+    },
+    {
+        "id":16,
+        "imeGrada":"Bangkok",
+        "img":"assets/images/bangkok.jpg",
+        "opis":"Eat, shop and repeat in Thailand’s intoxicating capital city and, increasingly, stealth design center.",
+        "populacija":"8.281 mil",
+        "methodology":[
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            },
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            }
+        ],
+        "cena":990,
+        "prioritet":13,
+        "daljiOpis":"Though Bangkok is known for its amazing street food—the city ranks #18 on the planet in our Culinary category—the capital’s administration announced in 2017 that it plans to sweep food vendors from renowned street hotspots Yaowarat (Chinatown) and Khao San Road to make room for pedestrians. But don’t worry, food stalls are legal in the markets, so don’t skip a visit to Chatuchak, the biggest one. Bangkok also ranks high (#5) in our Shopping category, so once you tire of haggling, head to the sixth floor of Central, an upscale department store, to stock up on traditional Thai merchandise like tableware and decorative items made by artisans in Chiang Mai."
+    },
+    {
+        "id":17,
+        "imeGrada":"Paris",
+        "img":"assets/images/paris.jpg",
+        "opis":"Despite the destruction of its iconic cathedral and multiple terrorist attacks—seemingly insurmountable disaster and hardship—Paris prevails and comes back brighter.",
+        "populacija":"2.148 mil",
+        "methodology":[
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            },
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            }
+        ],
+        "cena":660,
+        "prioritet":18,
+        "daljiOpis":"While 2018 was another record year for Paris tourism visitations (38 million), France is targeting 100 million foreign tourists for 2020. The city nabs the top spot in our Shopping category, beating out New York and London for the first time. In 2020, the full renovation of Les Ateliers Gaîté shopping mall, near Montparnasse Tower, will open for business, with more than 100 shops on three floors and a 25-restaurant food hall. Not to be outdone, architect Bjarke Ingels will unveil the massive Europa City mixed-use development in the city’s northern agricultural district of Triangle de Gonesse."
+    },
+    {
+        "id":18,
+        "imeGrada":"Hong Kong",
+        "img":"assets/images/hongkong.jpg",
+        "opis":"Not quite China, but no longer a Western colony, Hong Kong is fighting for its autonomy.",
+        "populacija":"7.392 mil",
+        "methodology":[
+            {
+                "idMethodology":1,
+                "naziv":"Place",
+                "skracenica":"Pc",
+                "bgColor":"#FBCFB5"
+            },
+            {
+                "idMethodology":3,
+                "naziv":"Promotion",
+                "skracenica":"Pm",
+                "bgColor":"#6B996A"
+            }
+        ],
+        "cena":1780,
+        "prioritet":15,
+        "daljiOpis":"The East-meets-West spirit of the place; the forest of skyscrapers as seen on a hike to Pok Fu Lam Reservoir; the sounds, smells and tastes from the dai pai dong (open-air food stalls) of Temple Street Night Market and the city’s electric pulse all captivate visitors and locals alike. The sublime embrace of the city was shattered in April 2019 when Hong Kong citizens opposing a law to extradite criminal cases to China first took to the streets. The demands quickly spread to broader human rights reforms targeting China’s encroachment on the region. After dozens of injuries and millions in damage, the extradition bill was removed in late October, but unrest persists."
+    },
+    {
+        "id":19,
+        "imeGrada":"Copenhagen",
+        "img":"assets/images/copenhagen.jpg",
+        "opis":"One of Europe’s new culinary capitals lets you eat it up and work it off.",
+        "populacija":"602.481",
+        "methodology":[
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            },
+            {
+                "idMethodology":5,
+                "naziv":"Programming",
+                "skracenica":"Pg",
+                "bgColor":"#3980DB"
+            }
+        ],
+        "cena":850,
+        "prioritet":14,
+        "daljiOpis":"René Redzepi put Nordic cuisine on the map when his restaurant Noma was named the world’s best in 2010. And the Danish capital continues to be a hotbed for innovative cuisine, as well as for contemporary art and design. Surprisingly, Copenhagen only ranks at #117 in our Culinary category, but trust us when we say you should go here hungry. Compact enough so you can walk or bike everywhere, Copenhagen offers not just plenty of culinary delights, but also a rich cultural heritage and lots of green spaces and pretty canals to explore. The city ranks #65 for Outdoors but #219 for Weather, so dress accordingly."
+    },
+    {
+        "id":20,
+        "imeGrada":"Stockholm",
+        "img":"assets/images/stockholm.jpg",
+        "opis":"An ambitious tech scene with daring cuisine to fuel the Scandinavian fire.",
+        "populacija":"974.073",
+        "methodology":[
+            {
+                "idMethodology":2,
+                "naziv":"People",
+                "skracenica":"Po",
+                "bgColor":"#FFC346"
+            },
+            {
+                "idMethodology":4,
+                "naziv":"Product",
+                "skracenica":"Pd",
+                "bgColor":"#E85D41"
+            }
+        ],
+        "cena":850,
+        "prioritet":17,
+        "daljiOpis":"Very few Scandinavian cities are as dynamic as Stockholm, with its mix of rustic, traditional and New Nordic cuisine, its idyllic parks and outdoor swimming areas, quaint cobblestone streets lined with buildings erected in the 1700s, cutting-edge design and mid-century modern aesthetics. Throw in a varied, multicultural population that speaks near flawless English (Stockholm ranks #20 in our People category) and epic summer season with near-constant daylight and you’ve got yourself one very attractive destination with plenty of experiences for any mood. This truly international city underwent an IT boom in the late 1990s, which was followed a decade later by a second wave with the launch of start-ups like Skype and Spotify. The city ranks #46 for GDP per capita."
+    }
+
+]

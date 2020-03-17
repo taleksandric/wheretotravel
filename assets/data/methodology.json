@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "ime":"Place",
+        "skracenica":"Pc",
+        "pozadinskaBoja":"#FBCFB5",
+        "opis":"The perceived quality of a city’s natural and built environment, including the sub-categories of Weather, Safety, Neighborhoods & Landmarks, and Outdoors."
+    },
+    {
+        "id":2,
+        "ime":"People",
+        "skracenica":"Po",
+        "pozadinskaBoja":"#FFC346",
+        "opis":"The immigration rate and diversity of a city, including the sub-categories of Foreign Born and Educational Attainment."
+    },
+    {
+        "id":3,
+        "ime":"Promotion",
+        "skracenica":"Pm",
+        "pozadinskaBoja":"#6B996A",
+        "opis":"The quantity of stories, references and recommendations shared online about a city, including the sub-categories of Google Search Results, Google Trends, Facebook Check-ins, Instagram Hashtags, and TripAdvisor Reviews."
+    },
+    {
+        "id":4,
+        "ime":"Product",
+        "skracenica":"Pd",
+        "pozadinskaBoja":"#E85D41",
+        "opis":"A city’s key institutions, attractions and infrastructure, including the sub-categories of Airport Connectivity, Attractions, Museums, University Ranking, Convention Center, and Pro Sports teams."
+    },
+    {
+        "id":5,
+        "ime":"Programming",
+        "skracenica":"Pg",
+        "pozadinskaBoja":"#3980DB",
+        "opis":"The arts, culture, entertainment and culinary scene in a city, including the sub-categories of Shopping, Culture, Restaurants, and Nightlife."
+    },
+    {
+        "id":6,
+        "ime":"Prosperity",
+        "skracenica":"Ps",
+        "pozadinskaBoja":"#7D7D99",
+        "opis":"A city’s employment and corporate head offices, including the sub-categories of Fortune 500 Companies and Household Income."
+    }
+]

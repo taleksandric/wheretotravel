@@ -1,0 +1,22 @@
+[
+    {
+        "href":"index.html",
+        "naziv":"World's Best Cities"
+    },
+    {
+        "href":"#methodology",
+        "naziv":"Methodology"
+    },
+    {
+        "href":"favorites.html",
+        "naziv":"Your favorites"
+    },
+    {
+        "href":"#kontakt",
+        "naziv":"Contact"
+    },
+    {
+        "href":"#about",
+        "naziv":"About me"
+    }
+]
